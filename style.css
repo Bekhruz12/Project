@@ -26,6 +26,8 @@ body {
 .header {
     min-height: 70vh;
     background: rebeccapurple;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav {
@@ -53,4 +55,15 @@ body {
     text-transform: uppercase;
     color: #fff;
     margin-left: 20px;
+}
+
+.header__title {
+    font-size: 100px;
+    font-family: cursive;
+    color: red;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    text-shadow: 0  5px 10px #fff;
 }
